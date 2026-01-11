@@ -1,0 +1,28 @@
+$ python ai_terminal.py
+╔══════════════════════════════════════════════════════════╗
+║           AI TERMINAL ASSISTANT - TERMINAL MODE          ║
+╚══════════════════════════════════════════════════════════╝
+
+User: john_doe
+Session: a1b2c3d4
+AI Mode: API Connected
+
+Type commands or describe tasks in plain English.
+Examples:
+  "scan my network"
+  "check disk space"
+  "list all files"
+  "show processes"
+
+john_doe@~ $> check disk usage
+[AI] Processing request...
+[AI Assistant - API]
+Command: df -h
+
+Execute this command? (y/n/edit): y
+[Executing] df -h
+────────────────────────────────────────────────────────────
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G   20G   28G  42% /
+/dev/sdb1       100G   30G   65G  32% /home
+────────────────────────────────────────────────────────────
